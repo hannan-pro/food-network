@@ -10,6 +10,10 @@ h1{
     font-size: 50px;
     font-weight: 700;
 }
+h3{
+    font-size: 30px;
+    font-weight: 500;
+}
 .flex-container{
     display: flex;
     margin-bottom: 150px;
@@ -79,8 +83,10 @@ nav.menu ul li:hover a{
 .recipies-top p {
     margin-bottom: 70px;
 }
-.single-recipe {
+.one-third-width{
     width: 33%;
+}
+.single-recipe {
     box-shadow: 5px 5px 20px;
     margin: 0 20px;
     border-radius: 35px;
@@ -92,4 +98,24 @@ nav.menu ul li:hover a{
 }
 .single-recipe p{
     padding-bottom: 30px;
+}
+.subscribe{
+    text-align: center;
+    box-shadow: 5px 5px 20px;
+    margin: 100px 20px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.subscribe .flex-container {
+    margin-bottom: 20px;
+}
+footer{
+    padding: 50px 0;
+    background-color: black;
+    text-align: center;
+}
+footer p{
+    color: white;
 }
