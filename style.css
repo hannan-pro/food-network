@@ -1,9 +1,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 0;    
+    color: #575757;
+}
+a{
+    color: #575757;
 }
 h1{
     font-size: 50px;
+    font-weight: 700;
 }
 .flex-container{
     display: flex;
@@ -11,13 +16,12 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 80%;
 }
 .logo a{
-    color: #575757;
     display: block;
     font-size: 40px;
     font-weight: 700;
@@ -44,7 +48,6 @@ nav.menu ul li a{
     text-decoration: none;
     display: block;
     padding: 20px 20px;
-    color: #575757;
     transition: 0.5s;
 }
 nav.menu ul li:hover a{
@@ -60,4 +63,33 @@ nav.menu ul li:hover a{
     font-weight: 700;
     display: inline-block;
     margin-top: 20px;
+}
+.about-bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 0;
+}
+.about-bg img{
+    width: 50%;
+}
+.recipies-top{
+    text-align: center;
+}
+.recipies-top p {
+    margin-bottom: 70px;
+}
+.single-recipe {
+    width: 33%;
+    box-shadow: 5px 5px 20px;
+    margin: 0 20px;
+    border-radius: 35px;
+    padding: 30px 30px;
+}
+
+.single-recipe img {
+    width: 100%;
+}
+.single-recipe p{
+    padding-bottom: 30px;
 }
